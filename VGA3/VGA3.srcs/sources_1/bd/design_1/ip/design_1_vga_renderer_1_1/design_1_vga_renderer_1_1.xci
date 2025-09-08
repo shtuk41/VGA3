@@ -1,0 +1,51 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "design_1_vga_renderer_1_1",
+    "cell_name": "vga_renderer_1",
+    "component_reference": "xilinx.com:module_ref:vga_renderer:1.0",
+    "ip_revision": "1",
+    "gen_directory": "../../../../../../VGA3.gen/sources_1/bd/design_1/ip/design_1_vga_renderer_1_1",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "design_1_vga_renderer_1_1", "resolve_type": "user", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynq" } ],
+        "BASE_BOARD_PART": [ { "value": "digilentinc.com:zybo-z7-20:part0:1.2" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7z020" } ],
+        "NEXTGEN_VERSAL": [ { "value": "0" } ],
+        "PACKAGE": [ { "value": "clg400" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../VGA3.gen/sources_1/bd/design_1/ip/design_1_vga_renderer_1_1" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2024.1.2" } ],
+        "SYNTHESISFLOW": [ { "value": "OOC_HIERARCHICAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "CLK_I": [ { "direction": "in" } ],
+        "VGA_HS_O": [ { "direction": "out" } ],
+        "VGA_VS_O": [ { "direction": "out" } ],
+        "VGA_R": [ { "direction": "out", "size_left": "3", "size_right": "0" } ],
+        "VGA_G": [ { "direction": "out", "size_left": "3", "size_right": "0" } ],
+        "VGA_B": [ { "direction": "out", "size_left": "3", "size_right": "0" } ],
+        "pixel_addr": [ { "direction": "out", "size_left": "15", "size_right": "0" } ],
+        "pixel": [ { "direction": "in", "size_left": "11", "size_right": "0" } ]
+      }
+    }
+  }
+}
