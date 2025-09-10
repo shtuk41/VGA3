@@ -21,7 +21,7 @@
 
 
 module vga_reader(
-    (* X_INTERFACE_PARAMETER = "FREQ_HZ 25173966, PHASE 0.0, CLK_DOMAIN design_1_clk" *)
+    (* X_INTERFACE_PARAMETER = "FREQ_HZ 25176678, PHASE 0.0, CLK_DOMAIN design_1_clk" *)
     (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 clk CLK" *)
     input wire clk,
     input wire [15:0] addr,

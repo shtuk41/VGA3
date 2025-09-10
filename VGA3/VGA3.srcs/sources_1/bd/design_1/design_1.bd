@@ -2099,7 +2099,7 @@
             "direction": "I",
             "parameters": {
               "FREQ_HZ": {
-                "value": "25173966",
+                "value": "25176678",
                 "value_src": "constant"
               },
               "PHASE": {
@@ -2148,11 +2148,44 @@
         "xci_path": "ip\\design_1_clk_wiz_0\\design_1_clk_wiz_0.xci",
         "inst_hier_path": "clk_wiz",
         "parameters": {
+          "CLKOUT1_JITTER": {
+            "value": "171.291"
+          },
+          "CLKOUT1_PHASE_ERROR": {
+            "value": "102.766"
+          },
           "CLKOUT1_REQUESTED_OUT_FREQ": {
-            "value": "25.175"
+            "value": "25.17668"
+          },
+          "CLKOUT2_JITTER": {
+            "value": "119.814"
+          },
+          "CLKOUT2_PHASE_ERROR": {
+            "value": "102.766"
+          },
+          "CLKOUT2_REQUESTED_OUT_FREQ": {
+            "value": "148.43750"
+          },
+          "CLKOUT2_USED": {
+            "value": "true"
           },
           "CLK_IN1_BOARD_INTERFACE": {
             "value": "sys_clock"
+          },
+          "MMCM_CLKFBOUT_MULT_F": {
+            "value": "7.125"
+          },
+          "MMCM_CLKOUT0_DIVIDE_F": {
+            "value": "35.375"
+          },
+          "MMCM_CLKOUT1_DIVIDE": {
+            "value": "6"
+          },
+          "MMCM_DIVCLK_DIVIDE": {
+            "value": "1"
+          },
+          "NUM_OUT_CLKS": {
+            "value": "2"
           },
           "USE_BOARD_FLOW": {
             "value": "true"
@@ -2190,7 +2223,7 @@
             "direction": "I",
             "parameters": {
               "FREQ_HZ": {
-                "value": "25173966",
+                "value": "148437500",
                 "value_src": "ip_prop"
               },
               "PHASE": {
@@ -2294,18 +2327,22 @@
       }
     },
     "nets": {
-      "Net": {
-        "ports": [
-          "clk_wiz/clk_out1",
-          "blk_mem_gen_0/clkb",
-          "vga_reader_0/clk",
-          "vga_renderer_1/CLK_I"
-        ]
-      },
       "blk_mem_gen_0_doutb": {
         "ports": [
           "blk_mem_gen_0/doutb",
           "vga_reader_0/bram_dout"
+        ]
+      },
+      "clk_wiz_clk_out1": {
+        "ports": [
+          "clk_wiz/clk_out1",
+          "vga_reader_0/clk"
+        ]
+      },
+      "clk_wiz_clk_out2": {
+        "ports": [
+          "clk_wiz/clk_out2",
+          "vga_renderer_1/CLK_I"
         ]
       },
       "processing_system7_0_FCLK_CLK0": {

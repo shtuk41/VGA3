@@ -1,64 +1,65 @@
 {
    "ActiveEmotionalView":"Default View",
-   "Default View_ScaleFactor":"0.924964",
-   "Default View_TopLeft":"175,554",
+   "Default View_ScaleFactor":"0.717936",
+   "Default View_TopLeft":"-139,455",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
 #  -string -flagsOSRD
-preplace port DDR -pg 1 -lvl 4 -x 1340 -y 60 -defaultsOSRD
-preplace port FIXED_IO -pg 1 -lvl 4 -x 1340 -y 80 -defaultsOSRD
-preplace port leds_4bits -pg 1 -lvl 4 -x 1340 -y 160 -defaultsOSRD
-preplace port btn -pg 1 -lvl 4 -x 1340 -y 480 -defaultsOSRD
+preplace port DDR -pg 1 -lvl 4 -x 1350 -y 60 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 4 -x 1350 -y 80 -defaultsOSRD
+preplace port leds_4bits -pg 1 -lvl 4 -x 1350 -y 160 -defaultsOSRD
+preplace port btn -pg 1 -lvl 4 -x 1350 -y 480 -defaultsOSRD
 preplace port port-id_sys_clock -pg 1 -lvl 0 -x -40 -y 610 -defaultsOSRD
-preplace port port-id_VGA_HS_O -pg 1 -lvl 4 -x 1340 -y 970 -defaultsOSRD
-preplace port port-id_VGA_VS_O -pg 1 -lvl 4 -x 1340 -y 990 -defaultsOSRD
-preplace portBus VGA_R -pg 1 -lvl 4 -x 1340 -y 1010 -defaultsOSRD
-preplace portBus VGA_G -pg 1 -lvl 4 -x 1340 -y 1030 -defaultsOSRD
-preplace portBus VGA_B -pg 1 -lvl 4 -x 1340 -y 1050 -defaultsOSRD
+preplace port port-id_VGA_HS_O -pg 1 -lvl 4 -x 1350 -y 970 -defaultsOSRD
+preplace port port-id_VGA_VS_O -pg 1 -lvl 4 -x 1350 -y 990 -defaultsOSRD
+preplace portBus VGA_R -pg 1 -lvl 4 -x 1350 -y 1010 -defaultsOSRD
+preplace portBus VGA_G -pg 1 -lvl 4 -x 1350 -y 1030 -defaultsOSRD
+preplace portBus VGA_B -pg 1 -lvl 4 -x 1350 -y 1050 -defaultsOSRD
 preplace inst processing_system7_0 -pg 1 -lvl 1 -x 460 -y 140 -defaultsOSRD
 preplace inst AXI_GPIO_LED -pg 1 -lvl 3 -x 1200 -y 160 -defaultsOSRD
 preplace inst AXI_GPIO_BUTTONS -pg 1 -lvl 3 -x 1200 -y 480 -defaultsOSRD
-preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 890 -y 260 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 900 -y 260 -defaultsOSRD
 preplace inst rst_ps7_0_50M -pg 1 -lvl 1 -x 460 -y 360 -defaultsOSRD
 preplace inst axi_bram_ctrl_0 -pg 1 -lvl 1 -x 460 -y 520 -defaultsOSRD
-preplace inst vga_reader_0 -pg 1 -lvl 1 -x 460 -y 740 -defaultsOSRD
-preplace inst clk_wiz -pg 1 -lvl 2 -x 890 -y 540 -defaultsOSRD
-preplace inst blk_mem_gen_0 -pg 1 -lvl 2 -x 890 -y 770 -defaultsOSRD
-preplace inst vga_renderer_1 -pg 1 -lvl 1 -x 460 -y 1020 -defaultsOSRD
-preplace netloc Net 1 0 3 230 620 740J 610 1040J
-preplace netloc blk_mem_gen_0_doutb 1 0 2 260 650 700J
-preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 230 20 740 100 1080
-preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 250 250 720
-preplace netloc rst_ps7_0_50M_mb_reset 1 1 1 720 320n
-preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 0 3 260 260 730 420 1090
-preplace netloc sys_clock_1 1 0 2 NJ 610 730J
-preplace netloc vga_reader_0_bram_addr 1 1 1 730 730n
-preplace netloc vga_reader_0_bram_en 1 1 1 690 750n
-preplace netloc vga_reader_0_bram_rst 1 1 1 680 770n
-preplace netloc vga_reader_0_pixel 1 0 2 240 630 660
-preplace netloc vga_renderer_1_VGA_B 1 1 3 NJ 1050 NJ 1050 NJ
-preplace netloc vga_renderer_1_VGA_G 1 1 3 NJ 1030 NJ 1030 NJ
-preplace netloc vga_renderer_1_VGA_HS_O 1 1 3 NJ 970 NJ 970 NJ
-preplace netloc vga_renderer_1_VGA_R 1 1 3 NJ 1010 NJ 1010 NJ
-preplace netloc vga_renderer_1_VGA_VS_O 1 1 3 NJ 990 NJ 990 NJ
-preplace netloc vga_renderer_1_pixel_addr 1 0 2 250 640 670
+preplace inst vga_reader_0 -pg 1 -lvl 1 -x 460 -y 870 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 2 -x 900 -y 540 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 2 -x 900 -y 770 -defaultsOSRD
+preplace inst vga_renderer_1 -pg 1 -lvl 1 -x 460 -y 1050 -defaultsOSRD
+preplace netloc blk_mem_gen_0_doutb 1 0 2 250 770 680J
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 240 30 740 100 1080
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 230 20 670
+preplace netloc rst_ps7_0_50M_mb_reset 1 1 1 680 320n
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 0 3 250 250 750 430 1090
+preplace netloc sys_clock_1 1 0 2 NJ 610 710J
+preplace netloc vga_reader_0_bram_addr 1 1 1 690 760n
+preplace netloc vga_reader_0_bram_en 1 1 1 700 800n
+preplace netloc vga_reader_0_bram_rst 1 1 1 710 820n
+preplace netloc vga_reader_0_pixel 1 0 2 220 760 670
+preplace netloc vga_renderer_1_VGA_B 1 1 3 NJ 1080 NJ 1080 1330J
+preplace netloc vga_renderer_1_VGA_G 1 1 3 NJ 1060 NJ 1060 1320J
+preplace netloc vga_renderer_1_VGA_HS_O 1 1 3 690J 970 NJ 970 NJ
+preplace netloc vga_renderer_1_VGA_R 1 1 3 NJ 1040 NJ 1040 1310J
+preplace netloc vga_renderer_1_VGA_VS_O 1 1 3 710J 990 NJ 990 NJ
+preplace netloc vga_renderer_1_pixel_addr 1 0 2 260 780 660
+preplace netloc clk_wiz_clk_out2 1 0 3 240 630 NJ 630 1050
+preplace netloc clk_wiz_clk_out1 1 0 3 230 620 NJ 620 1070
 preplace netloc AXI_GPIO_BUTTONS_GPIO 1 3 1 NJ 480
-preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 1 1 710 520n
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 1 1 670 520n
 preplace netloc axi_gpio_0_GPIO 1 3 1 NJ 160
-preplace netloc processing_system7_0_DDR 1 1 3 720J 60 NJ 60 NJ
-preplace netloc processing_system7_0_FIXED_IO 1 1 3 730J 80 NJ 80 NJ
-preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 720 150n
+preplace netloc processing_system7_0_DDR 1 1 3 680J 60 NJ 60 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 1 3 690J 80 NJ 80 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 680 150n
 preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 1060 240n
 preplace netloc ps7_0_axi_periph_M01_AXI 1 2 1 1050 140n
-preplace netloc ps7_0_axi_periph_M02_AXI 1 0 3 240 30 N 30 1040
-levelinfo -pg 1 -40 460 890 1200 1340
-pagesize -pg 1 -db -bbox -sgen -160 -140 1520 1130
+preplace netloc ps7_0_axi_periph_M02_AXI 1 0 3 260 260 690 420 1050
+levelinfo -pg 1 -40 460 900 1200 1350
+pagesize -pg 1 -db -bbox -sgen -160 -140 1520 1160
 "
 }
 {
    "da_axi4_cnt":"3",
-   "da_board_cnt":"1",
+   "da_board_cnt":"2",
    "da_bram_cntlr_cnt":"1",
-   "da_clkrst_cnt":"1",
+   "da_clkrst_cnt":"3",
    "da_ps7_cnt":"1"
 }
