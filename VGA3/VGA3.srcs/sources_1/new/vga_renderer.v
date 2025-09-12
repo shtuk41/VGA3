@@ -1,33 +1,17 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
-// 
-// Create Date: 09/08/2025 05:28:10 PM
-// Design Name: 
-// Module Name: vga_renderer
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Engineer: Converted from Digilent 1080p VHDL
 //////////////////////////////////////////////////////////////////////////////////
+
 module vga_renderer(
     input  wire CLK_I,
+    input wire [11:0] pixel,
     output reg  VGA_HS_O,
     output reg  VGA_VS_O,
     output reg [3:0] VGA_R,
     output reg [3:0] VGA_G,
-    output reg [3:0] VGA_B,
-    
-    output wire [15:0] pixel_addr,  // address to read from BRAM
-    input wire [11:0] pixel         // pixel value from BRAM
+    output reg [3:0] VGA_B
 );
 
     // 1920x1080 @ 60Hz timing constants
@@ -86,8 +70,6 @@ module vga_renderer(
         VGA_VS_O = ~((v_count >= V_VISIBLE + V_FRONT) && (v_count < V_VISIBLE + V_FRONT + V_SYNC));
     end
 
-    // BRAM address
-    assign pixel_addr = v_count * H_VISIBLE + h_count;
 
     // Box counter
     always @(posedge CLK_I) begin
@@ -129,9 +111,9 @@ module vga_renderer(
                 VGA_G = 4'b1111;
                 VGA_B = 4'b0000;
             end else begin
-                VGA_R = 4'b1111;
-                VGA_G = 4'b0000;
-                VGA_B = 4'b0000;
+                VGA_R = pixel[11:8];
+                VGA_G = pixel[7:4];
+                VGA_B = pixel[3:0];
             end
         end else begin
             VGA_R = 4'b0000;

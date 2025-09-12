@@ -31,8 +31,8 @@
       "axi_bram_ctrl_0": "",
       "vga_reader_0": "",
       "clk_wiz": "",
-      "blk_mem_gen_0": "",
-      "vga_renderer_1": ""
+      "vga_renderer_1": "",
+      "blk_mem_gen_0": ""
     },
     "interface_ports": {
       "DDR": {
@@ -2067,8 +2067,14 @@
         "xci_path": "ip\\design_1_axi_bram_ctrl_0_0\\design_1_axi_bram_ctrl_0_0.xci",
         "inst_hier_path": "axi_bram_ctrl_0",
         "parameters": {
+          "DATA_WIDTH": {
+            "value": "32"
+          },
           "SINGLE_PORT_BRAM": {
             "value": "1"
+          },
+          "USE_ECC": {
+            "value": "0"
           }
         },
         "hdl_attributes": {
@@ -2099,7 +2105,7 @@
             "direction": "I",
             "parameters": {
               "FREQ_HZ": {
-                "value": "25176678",
+                "value": "25022644",
                 "value_src": "constant"
               },
               "PHASE": {
@@ -2111,11 +2117,6 @@
                 "value_src": "ip_prop"
               }
             }
-          },
-          "addr": {
-            "direction": "I",
-            "left": "15",
-            "right": "0"
           },
           "pixel": {
             "direction": "O",
@@ -2148,23 +2149,26 @@
         "xci_path": "ip\\design_1_clk_wiz_0\\design_1_clk_wiz_0.xci",
         "inst_hier_path": "clk_wiz",
         "parameters": {
+          "CLKIN2_JITTER_PS": {
+            "value": "100.0"
+          },
           "CLKOUT1_JITTER": {
-            "value": "171.291"
+            "value": "139.980"
           },
           "CLKOUT1_PHASE_ERROR": {
-            "value": "102.766"
+            "value": "169.573"
           },
           "CLKOUT1_REQUESTED_OUT_FREQ": {
-            "value": "25.17668"
+            "value": "148.52151"
           },
           "CLKOUT2_JITTER": {
-            "value": "119.814"
+            "value": "201.089"
           },
           "CLKOUT2_PHASE_ERROR": {
-            "value": "102.766"
+            "value": "169.573"
           },
           "CLKOUT2_REQUESTED_OUT_FREQ": {
-            "value": "148.43750"
+            "value": "25.02264"
           },
           "CLKOUT2_USED": {
             "value": "true"
@@ -2173,37 +2177,31 @@
             "value": "sys_clock"
           },
           "MMCM_CLKFBOUT_MULT_F": {
-            "value": "7.125"
+            "value": "27.625"
+          },
+          "MMCM_CLKIN2_PERIOD": {
+            "value": "10.000"
           },
           "MMCM_CLKOUT0_DIVIDE_F": {
-            "value": "35.375"
+            "value": "7.750"
           },
           "MMCM_CLKOUT1_DIVIDE": {
-            "value": "6"
+            "value": "46"
           },
           "MMCM_DIVCLK_DIVIDE": {
-            "value": "1"
+            "value": "3"
           },
           "NUM_OUT_CLKS": {
             "value": "2"
           },
+          "SECONDARY_SOURCE": {
+            "value": "Single_ended_clock_capable_pin"
+          },
           "USE_BOARD_FLOW": {
             "value": "true"
-          }
-        }
-      },
-      "blk_mem_gen_0": {
-        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
-        "ip_revision": "8",
-        "xci_name": "design_1_blk_mem_gen_0_0",
-        "xci_path": "ip\\design_1_blk_mem_gen_0_0\\design_1_blk_mem_gen_0_0.xci",
-        "inst_hier_path": "blk_mem_gen_0",
-        "parameters": {
-          "Enable_32bit_Address": {
-            "value": "true"
           },
-          "Memory_Type": {
-            "value": "True_Dual_Port_RAM"
+          "USE_INCLK_SWITCHOVER": {
+            "value": "false"
           }
         }
       },
@@ -2223,7 +2221,7 @@
             "direction": "I",
             "parameters": {
               "FREQ_HZ": {
-                "value": "148437500",
+                "value": "148521505",
                 "value_src": "ip_prop"
               },
               "PHASE": {
@@ -2235,6 +2233,11 @@
                 "value_src": "ip_prop"
               }
             }
+          },
+          "pixel": {
+            "direction": "I",
+            "left": "11",
+            "right": "0"
           },
           "VGA_HS_O": {
             "direction": "O"
@@ -2256,16 +2259,18 @@
             "direction": "O",
             "left": "3",
             "right": "0"
-          },
-          "pixel_addr": {
-            "direction": "O",
-            "left": "15",
-            "right": "0"
-          },
-          "pixel": {
-            "direction": "I",
-            "left": "11",
-            "right": "0"
+          }
+        }
+      },
+      "blk_mem_gen_0": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "ip_revision": "8",
+        "xci_name": "design_1_blk_mem_gen_0_3",
+        "xci_path": "ip\\design_1_blk_mem_gen_0_3\\design_1_blk_mem_gen_0_3.xci",
+        "inst_hier_path": "blk_mem_gen_0",
+        "parameters": {
+          "Memory_Type": {
+            "value": "True_Dual_Port_RAM"
           }
         }
       }
@@ -2336,13 +2341,13 @@
       "clk_wiz_clk_out1": {
         "ports": [
           "clk_wiz/clk_out1",
-          "vga_reader_0/clk"
+          "vga_renderer_1/CLK_I"
         ]
       },
       "clk_wiz_clk_out2": {
         "ports": [
           "clk_wiz/clk_out2",
-          "vga_renderer_1/CLK_I"
+          "vga_reader_0/clk"
         ]
       },
       "processing_system7_0_FCLK_CLK0": {
@@ -2409,7 +2414,7 @@
           "blk_mem_gen_0/rstb"
         ]
       },
-      "vga_reader_0_pixel": {
+      "vga_reader_0_pixel1": {
         "ports": [
           "vga_reader_0/pixel",
           "vga_renderer_1/pixel"
@@ -2444,12 +2449,6 @@
           "vga_renderer_1/VGA_VS_O",
           "VGA_VS_O"
         ]
-      },
-      "vga_renderer_1_pixel_addr": {
-        "ports": [
-          "vga_renderer_1/pixel_addr",
-          "vga_reader_0/addr"
-        ]
       }
     },
     "addressing": {
@@ -2470,7 +2469,7 @@
               "SEG_axi_bram_ctrl_0_Mem0": {
                 "address_block": "/axi_bram_ctrl_0/S_AXI/Mem0",
                 "offset": "0x40000000",
-                "range": "8K"
+                "range": "32K"
               }
             }
           }

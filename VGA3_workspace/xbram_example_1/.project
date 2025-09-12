@@ -3,7 +3,6 @@
 	<name>xbram_example_1</name>
 	<comment>Created by Vitis v2024.1</comment>
 	<projects>
-		<project>design_1_wrapper</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

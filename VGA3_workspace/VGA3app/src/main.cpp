@@ -69,7 +69,7 @@ int main() {
 		xil_printf("BRAM selftest succeeded\r\n");
 	}
 
-	int pixelsNum = 68;
+	int pixelsNum = 60;
 
 	for (int ii = 0; ii < pixelsNum; ii+=4)
 	{
