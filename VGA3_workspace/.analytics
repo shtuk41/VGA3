@@ -106,3 +106,84 @@ timestamp=[2025-09-12 11:46:24], mode=BUILD, duration=0:00:00.117, duration_ms=1
 timestamp=[2025-09-12 11:46:59], mode=PLATFORM_GENERATION, duration=0:00:34.231, duration_ms=34231, data={name=design_1_wrapper_1}
 timestamp=[2025-09-12 11:47:02], mode=BUILD, duration=0:00:00.719, duration_ms=719, data={name=VGA3, configuration=Debug, clean_build=false}
 timestamp=[2025-09-12 11:47:14], mode=BUILD, duration=0:00:05.505, duration_ms=5505, data={name=VGA3_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 12:25:48], mode=PLATFORM_GENERATION, duration=0:00:04.827, duration_ms=4827, data={name=design_1_wrapper_1}
+timestamp=[2025-09-12 12:25:49], mode=BUILD, duration=0:00:00.166, duration_ms=166, data={name=VGA3, configuration=Debug, clean_build=true}
+timestamp=[2025-09-12 12:25:49], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=VGA3_system, configuration=Debug, clean_build=true}
+timestamp=[2025-09-12 12:26:34], mode=PLATFORM_GENERATION, duration=0:00:33.909, duration_ms=33909, data={name=design_1_wrapper_1}
+timestamp=[2025-09-12 12:26:37], mode=BUILD, duration=0:00:00.654, duration_ms=654, data={name=VGA3, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 12:26:50], mode=BUILD, duration=0:00:05.554, duration_ms=5554, data={name=VGA3_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 12:35:46], mode=PLATFORM_GENERATION, duration=0:00:04.875, duration_ms=4875, data={name=design_1_wrapper_1}
+timestamp=[2025-09-12 12:35:46], mode=BUILD, duration=0:00:00.166, duration_ms=166, data={name=VGA3, configuration=Debug, clean_build=true}
+timestamp=[2025-09-12 12:35:46], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=VGA3_system, configuration=Debug, clean_build=true}
+timestamp=[2025-09-12 12:36:26], mode=PLATFORM_GENERATION, duration=0:00:33.945, duration_ms=33945, data={name=design_1_wrapper_1}
+timestamp=[2025-09-12 12:36:29], mode=BUILD, duration=0:00:00.647, duration_ms=647, data={name=VGA3, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 12:36:41], mode=BUILD, duration=0:00:05.498, duration_ms=5498, data={name=VGA3_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 14:12:48], mode=BUILD, duration=0:00:00.692, duration_ms=692, data={name=VGA3, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 14:12:54], mode=BUILD, duration=0:00:05.724, duration_ms=5724, data={name=VGA3_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 14:22:17], mode=BUILD, duration=0:00:00.360, duration_ms=360, data={name=VGA3, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 14:22:40], mode=BUILD, duration=0:00:00.717, duration_ms=717, data={name=VGA3, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 14:22:46], mode=BUILD, duration=0:00:05.641, duration_ms=5641, data={name=VGA3_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 14:23:26], mode=BUILD, duration=0:00:00.664, duration_ms=664, data={name=VGA3, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 14:23:31], mode=BUILD, duration=0:00:05.615, duration_ms=5615, data={name=VGA3_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 14:38:36], mode=PLATFORM_GENERATION, duration=0:00:04.777, duration_ms=4777, data={name=design_1_wrapper_1}
+timestamp=[2025-09-12 14:38:36], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=VGA3, configuration=Debug, clean_build=true}
+timestamp=[2025-09-12 14:38:36], mode=BUILD, duration=0:00:00.130, duration_ms=130, data={name=VGA3_system, configuration=Debug, clean_build=true}
+timestamp=[2025-09-12 14:39:14], mode=PLATFORM_GENERATION, duration=0:00:33.908, duration_ms=33908, data={name=design_1_wrapper_1}
+timestamp=[2025-09-12 14:39:17], mode=BUILD, duration=0:00:00.654, duration_ms=654, data={name=VGA3, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 14:39:30], mode=BUILD, duration=0:00:05.557, duration_ms=5557, data={name=VGA3_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 15:12:26], mode=PLATFORM_GENERATION, duration=0:00:08.954, duration_ms=8954, data={name=design_1_wrapper_1}
+timestamp=[2025-09-12 15:12:26], mode=BUILD, duration=0:00:00.172, duration_ms=172, data={name=VGA3, configuration=Debug, clean_build=true}
+timestamp=[2025-09-12 15:12:26], mode=BUILD, duration=0:00:00.113, duration_ms=113, data={name=VGA3_system, configuration=Debug, clean_build=true}
+timestamp=[2025-09-12 15:13:08], mode=PLATFORM_GENERATION, duration=0:00:34.983, duration_ms=34983, data={name=design_1_wrapper_1}
+timestamp=[2025-09-12 15:13:11], mode=BUILD, duration=0:00:00.886, duration_ms=886, data={name=VGA3, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 15:13:24], mode=BUILD, duration=0:00:05.850, duration_ms=5850, data={name=VGA3_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 15:24:49], mode=PLATFORM_GENERATION, duration=0:00:04.880, duration_ms=4880, data={name=design_1_wrapper_1}
+timestamp=[2025-09-12 15:24:49], mode=BUILD, duration=0:00:00.180, duration_ms=180, data={name=VGA3, configuration=Debug, clean_build=true}
+timestamp=[2025-09-12 15:24:49], mode=BUILD, duration=0:00:00.134, duration_ms=134, data={name=VGA3_system, configuration=Debug, clean_build=true}
+timestamp=[2025-09-12 15:25:33], mode=PLATFORM_GENERATION, duration=0:00:32.765, duration_ms=32765, data={name=design_1_wrapper_1}
+timestamp=[2025-09-12 15:25:36], mode=BUILD, duration=0:00:00.647, duration_ms=647, data={name=VGA3, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 15:25:49], mode=BUILD, duration=0:00:05.559, duration_ms=5559, data={name=VGA3_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 15:28:49], mode=PLATFORM_GENERATION, duration=0:00:05.006, duration_ms=5006, data={name=design_1_wrapper_1}
+timestamp=[2025-09-12 15:28:49], mode=BUILD, duration=0:00:00.163, duration_ms=163, data={name=VGA3, configuration=Debug, clean_build=true}
+timestamp=[2025-09-12 15:28:50], mode=BUILD, duration=0:00:00.121, duration_ms=121, data={name=VGA3_system, configuration=Debug, clean_build=true}
+timestamp=[2025-09-12 15:29:34], mode=PLATFORM_GENERATION, duration=0:00:33.312, duration_ms=33312, data={name=design_1_wrapper_1}
+timestamp=[2025-09-12 15:29:35], mode=BUILD, duration=0:00:00.766, duration_ms=766, data={name=VGA3, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 15:29:41], mode=BUILD, duration=0:00:05.623, duration_ms=5623, data={name=VGA3_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 15:29:59], mode=BUILD, duration=0:00:00.231, duration_ms=231, data={name=VGA3, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 15:30:05], mode=BUILD, duration=0:00:05.561, duration_ms=5561, data={name=VGA3_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 15:40:44], mode=PLATFORM_GENERATION, duration=0:00:04.767, duration_ms=4767, data={name=design_1_wrapper_1}
+timestamp=[2025-09-12 15:40:44], mode=BUILD, duration=0:00:00.163, duration_ms=163, data={name=VGA3, configuration=Debug, clean_build=true}
+timestamp=[2025-09-12 15:40:45], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=VGA3_system, configuration=Debug, clean_build=true}
+timestamp=[2025-09-12 15:41:25], mode=PLATFORM_GENERATION, duration=0:00:33.681, duration_ms=33681, data={name=design_1_wrapper_1}
+timestamp=[2025-09-12 15:41:28], mode=BUILD, duration=0:00:00.652, duration_ms=652, data={name=VGA3, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 15:41:41], mode=BUILD, duration=0:00:05.506, duration_ms=5506, data={name=VGA3_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 16:00:21], mode=BUILD, duration=0:00:00.731, duration_ms=731, data={name=VGA3, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 16:00:27], mode=BUILD, duration=0:00:05.560, duration_ms=5560, data={name=VGA3_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 16:00:49], mode=BUILD, duration=0:00:00.239, duration_ms=239, data={name=VGA3, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 16:00:55], mode=BUILD, duration=0:00:05.561, duration_ms=5561, data={name=VGA3_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 16:17:57], mode=PLATFORM_GENERATION, duration=0:00:04.759, duration_ms=4759, data={name=design_1_wrapper_1}
+timestamp=[2025-09-12 16:17:57], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=VGA3, configuration=Debug, clean_build=true}
+timestamp=[2025-09-12 16:17:57], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=VGA3_system, configuration=Debug, clean_build=true}
+timestamp=[2025-09-12 16:18:35], mode=PLATFORM_GENERATION, duration=0:00:33.070, duration_ms=33070, data={name=design_1_wrapper_1}
+timestamp=[2025-09-12 16:18:38], mode=BUILD, duration=0:00:00.641, duration_ms=641, data={name=VGA3, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 16:18:51], mode=BUILD, duration=0:00:05.625, duration_ms=5625, data={name=VGA3_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 16:51:19], mode=PLATFORM_GENERATION, duration=0:00:04.762, duration_ms=4762, data={name=design_1_wrapper_1}
+timestamp=[2025-09-12 16:51:19], mode=BUILD, duration=0:00:00.162, duration_ms=162, data={name=VGA3, configuration=Debug, clean_build=true}
+timestamp=[2025-09-12 16:51:19], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=VGA3_system, configuration=Debug, clean_build=true}
+timestamp=[2025-09-12 16:51:58], mode=PLATFORM_GENERATION, duration=0:00:33.634, duration_ms=33634, data={name=design_1_wrapper_1}
+timestamp=[2025-09-12 16:52:01], mode=BUILD, duration=0:00:00.656, duration_ms=656, data={name=VGA3, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 16:52:14], mode=BUILD, duration=0:00:05.615, duration_ms=5615, data={name=VGA3_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 17:13:50], mode=PLATFORM_GENERATION, duration=0:00:04.811, duration_ms=4811, data={name=design_1_wrapper_1}
+timestamp=[2025-09-12 17:13:51], mode=BUILD, duration=0:00:00.164, duration_ms=164, data={name=VGA3, configuration=Debug, clean_build=true}
+timestamp=[2025-09-12 17:13:51], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=VGA3_system, configuration=Debug, clean_build=true}
+timestamp=[2025-09-12 17:15:34], mode=PLATFORM_GENERATION, duration=0:00:33.736, duration_ms=33736, data={name=design_1_wrapper_1}
+timestamp=[2025-09-12 17:15:37], mode=BUILD, duration=0:00:00.288, duration_ms=288, data={name=VGA3, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 17:16:26], mode=BUILD, duration=0:00:00.372, duration_ms=372, data={name=VGA3, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 17:16:55], mode=BUILD, duration=0:00:00.709, duration_ms=709, data={name=VGA3, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 17:17:01], mode=BUILD, duration=0:00:05.611, duration_ms=5611, data={name=VGA3_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 17:54:34], mode=PLATFORM_GENERATION, duration=0:00:04.810, duration_ms=4810, data={name=design_1_wrapper_1}
+timestamp=[2025-09-12 17:54:34], mode=BUILD, duration=0:00:00.165, duration_ms=165, data={name=VGA3, configuration=Debug, clean_build=true}
+timestamp=[2025-09-12 17:54:34], mode=BUILD, duration=0:00:00.122, duration_ms=122, data={name=VGA3_system, configuration=Debug, clean_build=true}
+timestamp=[2025-09-12 17:55:16], mode=PLATFORM_GENERATION, duration=0:00:36.913, duration_ms=36913, data={name=design_1_wrapper_1}
+timestamp=[2025-09-12 17:55:20], mode=BUILD, duration=0:00:00.712, duration_ms=712, data={name=VGA3, configuration=Debug, clean_build=false}
+timestamp=[2025-09-12 17:55:32], mode=BUILD, duration=0:00:05.551, duration_ms=5551, data={name=VGA3_system, configuration=Debug, clean_build=false}

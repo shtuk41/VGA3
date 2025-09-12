@@ -1,58 +1,57 @@
 {
    "ActiveEmotionalView":"Default View",
-   "Default View_ScaleFactor":"1.75",
-   "Default View_TopLeft":"318,808",
+   "Default View_ScaleFactor":"1.16629",
+   "Default View_TopLeft":"136,730",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0 threadsafe
 #  -string -flagsOSRD
-preplace port DDR -pg 1 -lvl 4 -x 1510 -y 60 -defaultsOSRD
-preplace port FIXED_IO -pg 1 -lvl 4 -x 1510 -y 80 -defaultsOSRD
-preplace port leds_4bits -pg 1 -lvl 4 -x 1510 -y 160 -defaultsOSRD
-preplace port btn -pg 1 -lvl 4 -x 1510 -y 480 -defaultsOSRD
+preplace port DDR -pg 1 -lvl 4 -x 1590 -y 60 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 4 -x 1590 -y 80 -defaultsOSRD
+preplace port btn -pg 1 -lvl 4 -x 1590 -y 480 -defaultsOSRD
 preplace port port-id_sys_clock -pg 1 -lvl 0 -x -40 -y 610 -defaultsOSRD
-preplace port port-id_VGA_HS_O -pg 1 -lvl 4 -x 1510 -y 970 -defaultsOSRD
-preplace port port-id_VGA_VS_O -pg 1 -lvl 4 -x 1510 -y 990 -defaultsOSRD
-preplace portBus VGA_R -pg 1 -lvl 4 -x 1510 -y 1010 -defaultsOSRD
-preplace portBus VGA_G -pg 1 -lvl 4 -x 1510 -y 1030 -defaultsOSRD
-preplace portBus VGA_B -pg 1 -lvl 4 -x 1510 -y 1050 -defaultsOSRD
-preplace inst processing_system7_0 -pg 1 -lvl 1 -x 510 -y 80 -defaultsOSRD
-preplace inst AXI_GPIO_LED -pg 1 -lvl 3 -x 1350 -y 160 -defaultsOSRD
-preplace inst AXI_GPIO_BUTTONS -pg 1 -lvl 3 -x 1350 -y 480 -defaultsOSRD
-preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 1020 -y 260 -defaultsOSRD
-preplace inst rst_ps7_0_50M -pg 1 -lvl 1 -x 510 -y 300 -defaultsOSRD
-preplace inst axi_bram_ctrl_0 -pg 1 -lvl 1 -x 510 -y 570 -defaultsOSRD
-preplace inst vga_reader_0 -pg 1 -lvl 1 -x 510 -y 970 -defaultsOSRD
-preplace inst clk_wiz -pg 1 -lvl 2 -x 1020 -y 540 -defaultsOSRD
-preplace inst vga_renderer_1 -pg 1 -lvl 1 -x 510 -y 1150 -defaultsOSRD
-preplace inst blk_mem_gen_0 -pg 1 -lvl 2 -x 1020 -y 790 -defaultsOSRD
-preplace netloc clk_wiz_clk_out1 1 0 3 280 450 NJ 450 1170
-preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 290 190 860 90 1240
-preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 310 200 710
-preplace netloc rst_ps7_0_50M_mb_reset 1 1 1 850 260n
-preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 0 3 260 400 830 100 1210
-preplace netloc sys_clock_1 1 0 2 -20J 490 710J
-preplace netloc vga_renderer_1_VGA_B 1 1 3 NJ 1190 NJ 1190 1480J
-preplace netloc vga_renderer_1_VGA_G 1 1 3 NJ 1170 NJ 1170 1470J
-preplace netloc vga_renderer_1_VGA_HS_O 1 1 3 750J 970 NJ 970 NJ
-preplace netloc vga_renderer_1_VGA_R 1 1 3 NJ 1150 NJ 1150 1460J
-preplace netloc vga_renderer_1_VGA_VS_O 1 1 3 760J 990 NJ 990 NJ
-preplace netloc vga_reader_0_bram_addr 1 1 1 720 780n
-preplace netloc vga_reader_0_bram_en 1 1 1 730 820n
-preplace netloc vga_reader_0_bram_rst 1 1 1 740 840n
-preplace netloc blk_mem_gen_0_doutb 1 0 2 310 800 NJ
-preplace netloc clk_wiz_clk_out2 1 0 3 300 460 NJ 460 1180
-preplace netloc vga_reader_0_pixel1 1 0 2 270 880 710
+preplace port port-id_VGA_HS_O -pg 1 -lvl 4 -x 1590 -y 970 -defaultsOSRD
+preplace port port-id_VGA_VS_O -pg 1 -lvl 4 -x 1590 -y 1090 -defaultsOSRD
+preplace portBus VGA_R -pg 1 -lvl 4 -x 1590 -y 1150 -defaultsOSRD
+preplace portBus VGA_G -pg 1 -lvl 4 -x 1590 -y 1030 -defaultsOSRD
+preplace portBus VGA_B -pg 1 -lvl 4 -x 1590 -y 1050 -defaultsOSRD
+preplace portBus leds_4bits_tri_o -pg 1 -lvl 4 -x 1590 -y 1010 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 530 -y 80 -defaultsOSRD
+preplace inst AXI_GPIO_BUTTONS -pg 1 -lvl 3 -x 1440 -y 480 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 1110 -y 260 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 1 -x 530 -y 300 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 1 -x 530 -y 620 -defaultsOSRD
+preplace inst vga_reader_0 -pg 1 -lvl 1 -x 530 -y 1070 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 2 -x 1110 -y 540 -defaultsOSRD
+preplace inst vga_renderer_1 -pg 1 -lvl 1 -x 530 -y 1270 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 2 -x 1110 -y 890 -defaultsOSRD
+preplace netloc clk_wiz_clk_out1 1 0 3 300 450 NJ 450 1260
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 310 190 920 610 1290
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 330 200 740
+preplace netloc rst_ps7_0_50M_mb_reset 1 1 1 940 260n
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 0 3 330 470 950 470 1280
+preplace netloc sys_clock_1 1 0 2 -20J 490 760J
+preplace netloc vga_renderer_1_VGA_B 1 1 3 960J 1260 1270J 1050 NJ
+preplace netloc vga_renderer_1_VGA_G 1 1 3 930J 670 NJ 670 1550J
+preplace netloc vga_renderer_1_VGA_HS_O 1 1 3 940J 680 NJ 680 1560J
+preplace netloc vga_renderer_1_VGA_R 1 1 3 NJ 1270 NJ 1270 1570J
+preplace netloc vga_renderer_1_VGA_VS_O 1 1 3 NJ 1250 NJ 1250 1550J
+preplace netloc vga_reader_0_bram_addr 1 1 1 750 920n
+preplace netloc vga_reader_0_bram_en 1 1 1 770 1000n
+preplace netloc blk_mem_gen_0_doutb 1 0 2 320 940 740J
+preplace netloc vga_reader_0_pixel1 1 0 2 330 950 730
+preplace netloc vga_reader_0_leds 1 1 3 760 660 NJ 660 1570J
+preplace netloc vga_reader_0_bram_rst 1 1 1 950 1020n
+preplace netloc vga_reader_0_bram_dinb 1 1 1 780 960n
+preplace netloc vga_reader_0_bram_web 1 1 1 960 1040n
 preplace netloc AXI_GPIO_BUTTONS_GPIO 1 3 1 NJ 480
-preplace netloc axi_gpio_0_GPIO 1 3 1 NJ 160
-preplace netloc processing_system7_0_DDR 1 1 3 NJ 30 NJ 30 1460J
-preplace netloc processing_system7_0_FIXED_IO 1 1 3 740J 80 NJ 80 NJ
-preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 850 90n
-preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 1220 240n
-preplace netloc ps7_0_axi_periph_M01_AXI 1 2 1 1230 140n
-preplace netloc ps7_0_axi_periph_M02_AXI 1 0 3 310 420 N 420 1170
-preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 1 1 750 570n
-levelinfo -pg 1 -40 510 1020 1350 1510
-pagesize -pg 1 -db -bbox -sgen -160 -140 1640 1360
+preplace netloc processing_system7_0_DDR 1 1 3 NJ 30 NJ 30 1570J
+preplace netloc processing_system7_0_FIXED_IO 1 1 3 780J 80 NJ 80 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 950 90n
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 1280 250n
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 1 1 740 550n
+preplace netloc ps7_0_axi_periph_M01_AXI 1 0 3 320 460 NJ 460 1270
+levelinfo -pg 1 -40 530 1110 1440 1590
+pagesize -pg 1 -db -bbox -sgen -160 -140 3050 1440
 "
 }
 {
