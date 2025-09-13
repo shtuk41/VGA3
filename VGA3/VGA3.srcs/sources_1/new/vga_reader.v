@@ -49,17 +49,17 @@ module vga_reader(
         bram_addr <= 0;      // always write to address 0
 
         // Counter for ~1 second timing
-        if (counter == 50_000_000-1) begin
-            counter <= 0;
-            color <= (color < 2) ? color + 1 : 0;
-
-            // Write color to BRAM
-            bram_web <= 4'b1111;
-            bram_dinb <= color;
-        end else begin
-            counter <= counter + 1;
-            bram_web <= 4'b0000;
-        end
+        //if (counter == 50_000_000-1) begin
+        //    counter <= 0;
+        //    color <= (color < 2) ? color + 1 : 0;
+        //
+        //    // Write color to BRAM
+        //    bram_web <= 4'b1111;
+        //    bram_dinb <= color;
+        //end else begin
+        //    counter <= counter + 1;
+        //    bram_web <= 4'b0000;
+        //end
 
         // Update pixel and LEDs based on BRAM content
         case (bram_dout_sync)

@@ -13,6 +13,8 @@
 #define BTN_MASK 0b1111
 #define LED_MASK 0b1111
 
+volatile uint32_t *bram_ptr = (volatile uint32_t *)0x40000000;
+
 int main() {
 	XGpio_Config *cfg_ptr;
 	//XGpio led_device;
@@ -75,22 +77,9 @@ int main() {
 
 	int ii = 0;
 
-	/*int pixelsNum = 60;
+	out_data = *bram_ptr;
 
-	for (int ii = 0; ii < pixelsNum; ii+=4)
-	{
-		XBram_WriteReg(XPAR_BRAM_0_DEVICE_ID, ii,ii);
-		xil_printf("%d \r\n", ii);
-	}
-
-
-	for (int ii = 0; ii < pixelsNum; ii+=4)
-	{
-		out_data = XBram_ReadReg(XPAR_BRAM_0_DEVICE_ID, ii);
-		xil_printf("%d: %d\r\n", ii, out_data);
-	}*/
-
-	out_data = XBram_ReadReg(XPAR_BRAM_0_DEVICE_ID, 0);
+	//out_data = XBram_ReadReg(XPAR_BRAM_0_DEVICE_ID, 0);
 	xil_printf("%d \r\n", out_data);
 
 	u32 data_prev;
@@ -103,7 +92,8 @@ int main() {
 
 		if (data == 0x1 && data != data_prev)
 		{
-			out_data = XBram_ReadReg(XPAR_BRAM_0_DEVICE_ID, 0);
+			//out_data = XBram_ReadReg(XPAR_BRAM_0_DEVICE_ID, 0);
+			out_data = *bram_ptr;
 			xil_printf("%d \r\n", out_data);
 		}
 		else if (data == 0x2 && data != data_prev)
@@ -117,7 +107,8 @@ int main() {
 				ii=0;
 			}
 
-			XBram_WriteReg(XPAR_BRAM_0_DEVICE_ID, 0,ii);
+			//XBram_WriteReg(XPAR_BRAM_0_DEVICE_ID, 0,ii);
+			*bram_ptr = ii;
 		}
 
 		data_prev = data;
